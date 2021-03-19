@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-size: 24pt;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(224, 84, 182);
+}
+
+main {
+  background-color: rgb(231, 255, 252);
+  padding: 0 10%;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+menu {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(76, 0, 216);
+}
+
+.menu-element {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(0, 0, 90);
+  color: white;
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+.menu:hover {
+  background-color: rgb(225, 0, 255);
+}
+
+.white {
+  color: white;
+}
+
+.gradient1 {
+  background: #fefcea; /* Для старых браузров */
+  background: linear-gradient(to top, rgb(182, 56, 144), rgb(247, 61, 191));
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+.gradient2 {
+  background: #fefcea; /* Для старых браузров */
+  background: linear-gradient(to top, rgb(163, 185, 183), rgb(231, 255, 252));
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+.meme {
+  display: flex;
+}
+
+.thumb img {
+  border: 2px solid linear-gradient(to top, rgb(0, 0, 0), rgb(37, 37, 37)); /* Рамка вокруг фотографии */
+  padding: 7px; /* Расстояние от картинки до рамки */
+  background: linear-gradient(
+    to top,
+    rgb(182, 56, 144),
+    rgb(247, 61, 191)
+  ); /* Цвет фона */
+  margin-right: 25px; /* Отступ справа */
+  margin-bottom: 25px; /* Отступ снизу */
+}
+
+.black {
+  color: black;
+}
+
+a {
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+.content{
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
