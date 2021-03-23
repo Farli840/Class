@@ -114,3 +114,7 @@ main{
   flex-direction: column;
   align-items: center;
 }
+
+.blackcolor{
+  color: black;
+}
