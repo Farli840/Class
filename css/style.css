@@ -4,7 +4,7 @@ div {
 
 body {
   margin: 0px;
-  font-size: 24pt;
+  font-size: 25pt;
   display: flex;
   flex-direction: column;
 }
@@ -33,7 +33,7 @@ menu {
   margin: 0;
   display: flex;
   justify-content: center;
-  background-color: rgb(76, 0, 216);
+  background: linear-gradient(to top,rgb(76, 0, 216), rgb(56, 3, 156));
 }
 
 .menu-element {
